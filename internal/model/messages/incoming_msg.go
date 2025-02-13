@@ -1,4 +1,4 @@
-package model
+package messages
 
 type MessageSender interface {
 	SendMessage(text string, userId int64) error
